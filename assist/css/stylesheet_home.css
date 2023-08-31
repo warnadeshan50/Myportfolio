@@ -47,11 +47,16 @@ header>nav>span{
     bottom: 0;
     left: 170px;
     margin: auto;
+    cursor: pointer;
 }
 header>nav>span:hover{
     color: red;
 }
+header>nav>span>span:hover{
+    color: red;
+}
 header>nav>span>span{
+    color: white;
     font-weight: normal;
 }
 header>nav{
@@ -101,6 +106,7 @@ main{
 main>section{
     position: relative;
 }
+/*ABOUT ME SECTION*/
 /*about me section position*/
 main>.about_me{
     position: relative;
@@ -215,7 +221,7 @@ main>.about_me>article>p>b{
 main>.about_me>article>p:nth-child(2){
     top:100px
 }
-
+/*about me details*/
 main>.about_me>ul{
     width: 400px;
     position: absolute;
@@ -224,12 +230,14 @@ main>.about_me>ul{
     list-style-type: none;
     font-size: 25px;
 }
+/*about me links in linkedin and git hub*/
 main>.about_me>a{
     position: relative;
     left: 100px;
     top: 400px;
 }
-main>.about_me>a>i{
+/*about me linkedin and github icon*/
+main>.about_me>a>i {
     color: white;
     font-size: 80px;
     margin: 10px;
@@ -239,6 +247,7 @@ main>.about_me>a>i:hover{
     font-size: 70px;
     margin: 10px;
 }
+/*about me download cv button*/
 main>.about_me>button{
     width: 200px;
     height: 80px;
@@ -252,3 +261,235 @@ main>.about_me>button{
 main>.about_me>button:hover{
     background: blueviolet;
 }
+/*EDUCATION SECTION*/
+/*education list*/
+main>.education>ul{
+    position: absolute;
+    left: 100px;
+    list-style-type: none;
+    top: 500px;
+    display: inline;
+}
+main>.education>ul>li>{
+    display: inline;
+    position: absolute;
+}
+/*education img links h3 tags*/
+main>.education>ul>li>div{
+    width: 300px;
+    position: absolute;
+}
+main>.education>ul>li>div>a>img{
+    width: 300px;
+    height: 350px;
+}
+main>.education>ul>li:nth-child(2)>div>a>img{
+    width: 500px;
+    height: 120px;
+}
+main>.education>ul>li:nth-child(3)>div>a>img{
+    width: 500px;
+    height: 150px;
+}
+main>.education>ul>li:nth-child(2)>div{
+    top: 100px;
+    left: 370px;
+}
+main>.education>ul>li:nth-child(3)>div{
+    left:850px;
+    top:100px
+}
+main>.education>ul>li>div>h3{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+main>.education>ul>li:nth-child(2)>div>h3{
+    top: 250px;
+    left: 25%;
+}
+main>.education>ul>li:nth-child(3)>div>h3{
+    top: 250px;
+    left: 25%;
+}
+/*SKILLS SECTION*/
+/*skill section tile*/
+main>.skills>h1{
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    font-size: 100px;
+}
+/*skills tarngles*/
+main>.skills>div>div{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid red;
+    position: absolute;
+    top: 1010px;
+    left: 450px;
+}
+main>.skills>div>div:nth-child(2){
+    left: 500px;
+    transform: rotate(180deg);
+    border-bottom: 50px solid #FFD600;
+}
+main>.skills>div>div:nth-child(3){
+    left: 550px;
+    border-bottom: 50px solid #52FF00;
+}
+main>.skills>div>div:nth-child(4){
+    left: 600px;
+    transform: rotate(180deg);
+    border-bottom: 50px solid #00FFD1;
+}
+main>.skills>div>div:nth-child(5){
+    left: 650px;
+    border-bottom: 50px solid #0066FF;
+}
+main>.skills>div>div:nth-child(6){
+    left: 700px;
+    transform: rotate(180deg);
+    border-bottom: 50px solid #FA0CFF;
+}
+main>.skills>ul{
+    list-style-type: none;
+    position: absolute;
+    top:1100px;
+    left: 100px;
+}
+main>.skills>ul>li{
+    position: absolute;
+}
+main>.skills>ul>li>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    background: white;
+}
+main>.skills>ul>li:nth-child(1)>div{
+    background-size: cover;
+    background: url("../../assist/img/java_logo.png") center;
+}
+main>.skills>ul>li:nth-child(2)>div{
+    background-size: cover;
+    background: url("../../assist/img/mysql_logo.png") center;
+    left: 600px;
+}
+main>.skills>ul>li:nth-child(3)>div{
+    background-size: cover;
+    background: url("../../assist/img/html_logo.png") center;
+    top: 200px;
+}
+main>.skills>ul>li:nth-child(4)>div{
+    background-size: cover;
+    background: url("../../assist/img/java-script_logo.png") center;
+    top: 200px;
+    left: 600px;
+}
+main>.skills>ul>li>div>h3{
+    font-size: 40px;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+}
+main>.skills>ul>li>div>.progress{
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+}
+main>.skills>ul>li>div>.progress>div{
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    background: orange;
+    position: absolute;
+}
+main>.blogs>h1{
+    position: absolute;
+    left: 100px;
+    top: 1400px;
+    font-size: 100px;
+}
+main>.blogs>iframe{
+    position: absolute;
+    left: 250px;
+    top: 1600px;
+    font-size: 100px;
+}
+main>.contact>h1{
+    position: absolute;
+    font-size: 100px;
+    left:100px;
+    top: 2000px;
+}
+main>.contact>.contact_form{
+    position:absolute;
+    top: 2200px;
+    left: 100px;
+}
+main>.contact>.contact_form>label{
+    position: relative;
+    left: 400px;
+    font-size: 40px;
+}
+main>.contact>.contact_form>input{
+    position: relative;
+    left: 500px;
+    width: 500px;
+    height: 40px;
+}
+main>.contact>.contact_form>input:nth-child(1){
+    right: 100px;
+}
+main>.contact>.contact_form>textarea{
+    position: relative;
+    top:10px;
+    left: 500px;
+    width: 500px;
+    height: 100px;
+}
+main>.contact>.contact_form>button{
+    position: relative;
+    width: 200px;
+    height:70px;
+    top: 40px;
+    left: 750px;
+    border: #00FFD1 solid 5px;
+    background: white;
+    border-radius: 100px;
+    font-size:30px ;
+    color: #005A5F;
+}
+main>.contact>.contact_form>button:hover{
+    width: 200px;
+    height:70px;
+    border: white solid 5px;
+    background: purple;
+    color: white;
+    border-radius: 100px;
+    font-size: 30px;
+}
+main>.contact>form>a>i{
+    font-size: 80px;
+    margin: 10px;
+    color: white;
+}
+main>.contact>.contact_form>a{
+    text-decoration: none;
+}
+
+
+
+
