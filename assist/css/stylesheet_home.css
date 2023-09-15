@@ -2,6 +2,9 @@ html * {
     font-family: Jura, sans-serif;
     color: #ABE5E5;
 }
+footer * {
+    color: white;
+}
 body{
     width: 100%;
 }
@@ -28,9 +31,7 @@ header>nav>div{
     width: 60px;
     border-radius: 100%;
     left: 100px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    margin: 10px;
 }
 header>nav>div:hover{
     background: red;
@@ -63,14 +64,15 @@ header>nav{
     position: fixed;
     background: black;
     width: 100%;
-    height: 70px;
+    height: 80px;
     z-index: 1111;
 }
-header>nav>img{
+header>nav>div>img{
     position: absolute;
-    left: 105px;
+    right: 0;
     top: 0;
     bottom: 0;
+    left: 0;
     margin: auto;
 }
 header>nav>ul{
@@ -87,9 +89,6 @@ header>nav>ul>li>a{
     text-decoration: none;
     color: whitesmoke;
     font-size: 25px;
-    top:0;
-    bottom: 0;
-    margin:auto;
 }
 header>nav>ul>li>a:hover{
     color: lightseagreen;
@@ -188,7 +187,7 @@ main>.about_me>span{
     width: fit-content;
     height: fit-content;
     font-family: Lobster, serif ;
-    font-size: 86px;
+    font-size: 70px;
     color: yellow;
     text-align: right;
     right: 100px;
@@ -218,9 +217,7 @@ main>.about_me>article>p>b{
     color:red;
     font-weight: bold;
 }
-main>.about_me>article>p:nth-child(2){
-    top:100px
-}
+
 /*about me details*/
 main>.about_me>ul{
     width: 400px;
@@ -228,7 +225,7 @@ main>.about_me>ul{
     right:100px;
     top: 300px;
     list-style-type: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 /*about me links in linkedin and git hub*/
 main>.about_me>a{
@@ -242,9 +239,11 @@ main>.about_me>a>i {
     font-size: 80px;
     margin: 10px;
 }
+.icon-cog {
+    color: black;
+}
 main>.about_me>a>i:hover{
     color: blueviolet;
-    font-size: 70px;
     margin: 10px;
 }
 /*about me download cv button*/
@@ -489,7 +488,88 @@ main>.contact>form>a>i{
 main>.contact>.contact_form>a{
     text-decoration: none;
 }
+main>footer{
+    position: relative;
+}
+main>footer>.footer{
+    position: relative;
+    top: 2700px;
+    width: 100%;
+    height: 250px;
+    background: black;
+}
+main>footer>.footer>span{
+    font-family: "JetBrains Mono", serif;
+    font-style: italic;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 100px;
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+}
+main>footer.footer>span>a{
+    text-decoration: none;
+}
+main>footer>.footer>span:nth-child(2){
+    top:50px;
+}
+main>footer>.footer>span:nth-child(3){
+    top:110px;
+    text-decoration: none;
+}
+main>footer>.footer>span>a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
 
-
-
-
+}
+main>footer>.footer>span:nth-child(4){
+    top:150px;
+}
+main>footer>.footer>.icons{
+    color:white;
+    position: absolute;
+    right: 300px;
+    bottom: 40px;
+}
+main>footer>.footer>.pic_frame{
+    width: 110px;
+    height: 110px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    top:10px;
+    left:calc(100% - 300px)
+}
+main>footer>.footer>.pic_frame>img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+main>footer>.footer>#company>span{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+    color: white;
+    right: 100px;
+    top:50px;
+    z-index: 9999;
+}
+main>footer>.footer>#copyright{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    left:0;
+    top:200px;
+    margin: auto;
+}
