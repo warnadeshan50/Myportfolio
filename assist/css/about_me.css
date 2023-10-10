@@ -1,0 +1,18 @@
+#about_me{
+    position: absolute;
+    top:100px;
+}
+#about_me>h1{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    font-size: 100px;
+    color: white;
+    left: 100px;
+    margin: 0;
+}
+#about_me>#profile_card{
+    width: 500px;
+    height: 300px;
+    background: #F8FF95;
+}

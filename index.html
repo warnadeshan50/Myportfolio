@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Warna Deshan Silva</title>
-    <link rel="icon" type="image/icon" href="../assist/profile_icon.ico" >
+    <link rel="icon" type="image/icon" href="assist/img/profile_icon.ico" >
+
     <meta name = "keywords" content = "html,css,java,ijse,software">
     <meta name = "author" content= "warna deshan silva">
     <meta name = "viewport" content="width=device-width,initial-scale1.0">
-    <link rel="stylesheet" href="assist/css/stylesheet_home.css">
-    <link rel="stylesheet" href="assist/css/normalize.css">
-    <link rel="stylesheet" href="assist/fontawesome/css/all.min.css">
+<!--jura font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
+<!--lobster font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<!--homemade apple font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+<!--jetbrain mono font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assist/lib/normalize.css">
+<!--    <link rel="stylesheet" href="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assist/css/preloader.css">
+
+    <link rel="stylesheet" href="assist/css/navgation_bar.css">
+    <link rel="stylesheet" href="assist/css/page_body_fonts.css">
+    <link rel="stylesheet" href="assist/css/about_me.css">
 </head>
 <body>
+<div id="preloader">
+    <div id="preloader_over_layer"></div>
+    <img src="assist/img/Reload-1s-200px.gif" alt="wda">
+</div>
 <div></div>
 <div></div>
     <header>
-        <nav class="navbar">
+<!--web nav-->
+        <nav id="web-navbar">
             <div>
-                <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="50px" height="50px">
+                <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
             </div>
             <span>
                 Warna <br><span>Deshan</span>
@@ -30,12 +62,48 @@
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
+
+<!--tab nav-->
+        <nav id="tab-navbar">
+            <div>
+                <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
+            </div>
+            <span class="span-tab-mob">
+                Warna <br><span>Deshan</span>
+            </span>
+            <ul class="tab_mob_nav_list">
+                <li><a href="index.html#aboutme">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html#blogs">Blogs</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button type="button" id="tab-btn-menu" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+<!--mob nav-->
+        <nav id="mob-navbar">
+            <div>
+                <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
+            </div>
+            <span class="span-mob-tab">
+                Warna <br><span>Deshan</span>
+            </span>
+            <ul class="tab_mob_nav_list">
+                <li><a href="index.html#aboutme">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html#blogs">Blogs</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button type="button" id="mob-btn-menu" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
     </header>
     <main>
-        <section class="about_me">
-            <h1 id="aboutme">ABOUT COLORS</h1>
-            <div>
-                <div>
+        <section id="about_me">
+            <h1 data-aos="zoom-in">ABOUT COLORS</h1>
+            <div id="profile_card">
+                <div id="prof_img_frame">
                     <img src="assist/img/about_me_pic.png" alt="Warna's photo" >
                 </div>
                 <span>ABOUT ME</span>
@@ -66,140 +134,159 @@
                 <i class="fa-brands fa-github fa-4x"></i></a>
             <button>Download CV </button>
         </section>
-        <section class="education">
-            <ul>
-                <li>
-                    <div>
-                        <a href="https://en.wikipedia.org/wiki/Kalutara_Vidyalaya">
-                            <img src="assist/img/kalutara-vidyalaya_logo.png"
-                                 alt="Kaluatara vidyalaya school logo"
-                                 title="Kalutara vidyalaya (School)"></a>
-                        <h3>
-                            <a href="https://en.wikipedia.org/wiki/Kalutara_Vidyalaya">Kaluatara Vidyalaya (School)</a>
-                        </h3>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://www.ijse.lk/">
-                            <img src="assist/img/ijse_logo.png"
-                                 alt="IJSE logo" title="IJSE LOGO"></a>
-                        <h3>
-                            <a href="https://www.ijse.lk/"> Instertute of Java & Software Engineering</a>
-                        </h3>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://www.ijse.lk/graduate-diploma-in-software-engineering.jsp">
-                            <img src="assist/img/gdse_logo.png"
-                                 alt="IJSE GDSE Program Icon"
-                                 title="GDSE Logo"></a>
-                        <h3>
-                            <a href="<https://www.ijse.lk/graduate-diploma-in-software-engineering.jsp>">
-                                Graduate Diploma in Software Engineering</a>
-                        </h3>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="skills">
-            <h1>SKILLS</h1>
-            <div id="tangols">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+<!--        <section class="education">-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                        <a href="https://en.wikipedia.org/wiki/Kalutara_Vidyalaya">-->
+<!--                            <img src="assist/img/kalutara-vidyalaya_logo.png"-->
+<!--                                 alt="Kaluatara vidyalaya school logo"-->
+<!--                                 title="Kalutara vidyalaya (School)"></a>-->
+<!--                        <h3>-->
+<!--                            <a href="https://en.wikipedia.org/wiki/Kalutara_Vidyalaya">Kaluatara Vidyalaya (School)</a>-->
+<!--                        </h3>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                        <a href="https://www.ijse.lk/">-->
+<!--                            <img src="assist/img/ijse_logo.png"-->
+<!--                                 alt="IJSE logo" title="IJSE LOGO"></a>-->
+<!--                        <h3>-->
+<!--                            <a href="https://www.ijse.lk/"> Instertute of Java & Software Engineering</a>-->
+<!--                        </h3>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                        <a href="https://www.ijse.lk/graduate-diploma-in-software-engineering.jsp">-->
+<!--                            <img src="assist/img/gdse_logo.png"-->
+<!--                                 alt="IJSE GDSE Program Icon"-->
+<!--                                 title="GDSE Logo"></a>-->
+<!--                        <h3>-->
+<!--                            <a href="<https://www.ijse.lk/graduate-diploma-in-software-engineering.jsp>">-->
+<!--                                Graduate Diploma in Software Engineering</a>-->
+<!--                        </h3>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </section>-->
+<!--        <section class="skills">-->
+<!--            <h1>SKILLS</h1>-->
+<!--            <div id="tangols">-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--                <div></div>-->
+<!--            </div>-->
 
-            <ul>
-                <li>
-                    <div>
-                    <h3>Java</h3>
-                        <div class="progress">
-                            <div></div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                    <h3>MYSQL</h3>
-                        <div class="progress">
-                            <div></div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                    <h3>HTML</h3>
-                        <div class="progress">
-                            <div></div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                    <h3>JS</h3>
-                        <div class="progress">
-                            <div></div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="blogs">
-            <h1 id="blogs">COLORS BLOGS</h1>
-            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1000" height="443" type="text/html" src="https://www.youtube.com/embed/j9H2xpWKCr0?autoplay=1&fs=1&iv_load_policy=1&showinfo=1&rel=1&cc_load_policy=0&start=0&end=0"></iframe>
-        </section>
-        <section class="contact">
-            <h1 id="contact">COLORS CONTACT</h1>
-            <form class="contact_form">
-                <label for="name">NAME</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">E-MAIL</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="phone">PHONE NO</label>
-                <input type="tel" id="phone" name="phone"><br>
-                <label for="message">MESSAGE</label>
-                <textarea id="message" name="message"></textarea><br>
-                <button id="submit" name="submit" value="submit">submit</button>
-                <button id="reset" name="reset" value="reset">reset</button>
-                <br>
-                <br>
-                <a href="https://wa.me/+94762079221">
-                    <i class="fa-brands fa-whatsapp fa-4x"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D">
-                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
-                </a>
-                <a href="https://web.facebook.com/profile.php?id=100009423883135">
-                    <i class="fa-brands fa-facebook fa-4x"></i>
-                </a>
-            </form>
-        </section>
-<footer>
-    <section class="footer">
-        <span>Warna Deshan Silva</span>
-        <span>38/2 Railway lane<br> Kalutara North</span>
-        <span><a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a></span>
-        <span><a href="tel:+94762079221">+94 76 207 9221</a></span>
-            <div class="icons">
-                <a href="https://wa.me/+94762079221"><i class="fa-brands fa-square-whatsapp fa-4x" style="color: #ffffff;"></i></a>
-                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D"><i class="fa-brands fa-linkedin fa-4x" style="color: #ffffff;"></i></a>
-                <a href="https://web.facebook.com/profile.php?id=100009423883135"><i class="fa-brands fa-square-facebook fa-4x" style="color: #ffffff;"></i></a>
-                <a href="https://github.com/warnadeshan50"><i class="fa-brands fa-square-git fa-4x" style="color: #ffffff;"></i></a>
-                <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ"><i class="fa-brands fa-square-youtube fa-4x" style="color: #ffffff;"></i></a>
-            </div>
-        <div class="pic_frame">
-        <img src="assist/img/profile_icon.ico" alt="footer_profile_logo" >
-        </div>
-        <div id="company"><span>Warna<br>Deshan</span></div>
-        <span id="copyright">©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </span>
-    </section>
-</footer>
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                    <h3>Java</h3>-->
+<!--                        <div class="progress">-->
+<!--                            <div></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                    <h3>MYSQL</h3>-->
+<!--                        <div class="progress">-->
+<!--                            <div></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                    <h3>HTML</h3>-->
+<!--                        <div class="progress">-->
+<!--                            <div></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div>-->
+<!--                    <h3>JS</h3>-->
+<!--                        <div class="progress">-->
+<!--                            <div></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </section>-->
+<!--        <section class="blogs">-->
+<!--            <h1 id="blogs">COLORS BLOGS</h1>-->
+<!--            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1000" height="443" type="text/html" src="https://www.youtube.com/embed/j9H2xpWKCr0?autoplay=1&fs=1&iv_load_policy=1&showinfo=1&rel=1&cc_load_policy=0&start=0&end=0"></iframe>-->
+<!--        </section>-->
+<!--        <section class="contact">-->
+<!--            <h1 id="contact">COLORS CONTACT</h1>-->
+<!--            <form class="contact_form">-->
+<!--                <label for="name">NAME</label>-->
+<!--                <input type="text" id="name" name="name"><br>-->
+<!--                <label for="email">E-MAIL</label>-->
+<!--                <input type="email" id="email" name="email"><br>-->
+<!--                <label for="phone">PHONE NO</label>-->
+<!--                <input type="tel" id="phone" name="phone"><br>-->
+<!--                <label for="message">MESSAGE</label>-->
+<!--                <textarea id="message" name="message"></textarea><br>-->
+<!--                <button id="submit" name="submit" value="submit">submit</button>-->
+<!--                <button id="reset" name="reset" value="reset">reset</button>-->
+<!--                <br>-->
+<!--                <br>-->
+<!--                <a href="https://wa.me/+94762079221">-->
+<!--                    <i class="fa-brands fa-whatsapp fa-4x"></i>-->
+<!--                </a>-->
+<!--                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D">-->
+<!--                    <i class="fa-brands fa-linkedin-in fa-4x"></i>-->
+<!--                </a>-->
+<!--                <a href="https://web.facebook.com/profile.php?id=100009423883135">-->
+<!--                    <i class="fa-brands fa-facebook fa-4x"></i>-->
+<!--                </a>-->
+<!--            </form>-->
+<!--        </section>-->
     </main>
-<script src="assist/fontawesome/js/all.min.js"></script>
+<!--<footer>-->
+<!--    <section class="footer">-->
+<!--        <span>Warna Deshan Silva</span>-->
+<!--        <span>38/2 Railway lane<br> Kalutara North</span>-->
+<!--        <span><a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a></span>-->
+<!--        <span><a href="tel:+94762079221">+94 76 207 9221</a></span>-->
+<!--            <div class="icons">-->
+<!--                <a href="https://wa.me/+94762079221"><i class="fa-brands fa-square-whatsapp fa-4x" style="color: #ffffff;"></i></a>-->
+<!--                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D"><i class="fa-brands fa-linkedin fa-4x" style="color: #ffffff;"></i></a>-->
+<!--                <a href="https://web.facebook.com/profile.php?id=100009423883135"><i class="fa-brands fa-square-facebook fa-4x" style="color: #ffffff;"></i></a>-->
+<!--                <a href="https://github.com/warnadeshan50"><i class="fa-brands fa-square-git fa-4x" style="color: #ffffff;"></i></a>-->
+<!--                <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ"><i class="fa-brands fa-square-youtube fa-4x" style="color: #ffffff;"></i></a>-->
+<!--            </div>-->
+<!--        <div class="pic_frame">-->
+<!--        <img src="assist/img/profile_icon.ico" alt="footer_profile_logo" >-->
+<!--        </div>-->
+<!--        <div id="company"><span>Warna<br>Deshan</span></div>-->
+<!--        <span id="copyright">©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </span>-->
+<!--    </section>-->
+<!--</footer>-->
+<script src="assist/lib/jquery.min.js"></script>
+<script src="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assist/js/mob_navbar.js"></script>
+<script src="assist/js/mob_navbar.js"></script>
+<script>
+    AOS.init();
+    window.onload=()=>{
+        console.log("A");
+        $("#preloader").css({"display":"none"});
+    }
+    document.addEventListener("DOMContentLoaded",()=>{
+        console.log("B");
+    });
+    $(window).ready(()=>{
+        console.log("C")
+    });
+</script>
+
 </body>
 </html>
