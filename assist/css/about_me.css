@@ -1,4 +1,5 @@
 #about_me{
+    width: 100%;
     position: absolute;
     top:100px;
 }
@@ -12,7 +13,482 @@
     margin: 0;
 }
 #about_me>#profile_card{
-    width: 500px;
-    height: 300px;
+    position: absolute;
+    width: 300px;
+    height: 450px;
     background: #F8FF95;
+    border-radius: 50px 50px 0 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+#about_me>#profile_card>#prof_img_frame{
+    position: absolute;
+    width: 280px;
+    border: 10px solid red;
+    border-bottom-color: darkslategray;
+    border-top-color: darkslategray;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    background: red;
+    right: 0;
+    top: 10px;
+    left: 0;
+    margin: auto;
+    box-shadow: 0px 0px 5px 7px rgba(251,0,255,1);
+}
+#about_me>#profile_card>#prof_img_frame>#prof-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 280px;
+    aspect-ratio: 1/1;
+    animation: prof-img-animation 20s infinite ;
+}
+#about_me>#profile_card>.aboutmetxt{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top:310px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 50px;
+    animation: aboutme-span-animation 2s infinite;
+    cursor: default;
+    user-select: none;
+}
+#about_me>#profile_card>.aboutmetxt:nth-child(2){
+    animation: aboutme-span-animation 3s infinite;
+    top: 340px;
+
+}
+#about_me>#profile_card>.aboutmetxt:nth-child(3){
+    animation: aboutme-span-animation 4s infinite;
+    top: 370px;
+}
+#about_me>#profile_card>.aboutmetxt:nth-child(4){
+    animation: aboutme-span-animation 5s infinite;
+    top: 400px;
+
+}
+#about_me>#hero_name{
+    cursor: default;
+    user-select: none;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right:100px;
+    font-family: "Lobster",sans-serif;
+    font-size: 80px;
+    text-align: right;
+    animation: hero-name-animation 10s infinite;
+    color: #F8FF95;
+}
+#about_me>article>#heyText{
+    width: fit-content;
+    height: fit-content;
+    font-family: "Homemade apple",sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+}
+#about_me>article>#myself{
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
+    top: 200px;
+    width: 400px;
+    color: #F8FF95;
+    font-weight: bold;
+    cursor: default;
+}
+#about_me>article>#myself>b{
+    cursor: default;
+    font-weight: bold;
+    color: #952323;
+}
+#about_me>article>#myself>b:hover{
+    transition: font-size;
+    transition-duration: 2s;
+    color: rgb(0,195,32);
+    font-size: 25px;
+}
+#about_me>#details_self{
+    position: absolute;
+    list-style-type: none;
+    top:300px;
+    right: 100px;
+    user-select: none;
+}
+#about_me>#details_self>li{
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 20px;
+    cursor: default;
+}
+#about_me>#details_self>li>a{
+    text-decoration: none;
+    color: #F8FF95;
+}
+#about_me>#linkedin_aboutme{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    color: #A084E8;
+}
+#about_me>#linkedin_aboutme:hover{
+    color: black;
+    font-size: 18px;
+}
+#about_me>#github_aboutme{
+    position: absolute;
+    top: 450px;
+    left: 170px;
+    color: #A084E8;
+}
+#about_me>#github_aboutme:hover{
+    color: black;
+    font-size: 18px;
+}
+#about_me>button {
+    cursor: pointer;
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    border-radius: 30px;
+    border: #F8FF95 solid 4px;
+    width: 140px;
+    height: 50px;
+    background: #A084E8;
+    color: #F8FF95;
+}
+#about_me>button:hover{
+    color: #ff253a;
+    background: #F8FF95;
+}
+/*aboutme text animation*/
+@keyframes aboutme-span-animation {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/*img animation*/
+@keyframes prof-img-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+/*aboutme hero name animation*/
+@keyframes hero-name-animation {
+    0% {
+        font-family: Lobster, sans-serif;
+    }
+    10% {
+        font-family: "Pixelify sans", sans-serif;
+    }
+    20% {
+        font-family: "Lilita One", sans-serif;
+    }
+    30% {
+        font-family: "Yellowtail", sans-serif;
+    }
+    40% {
+        font-family: "Pacifico", sans-serif;
+    }
+    50% {
+        font-family: "Caveat", sans-serif;
+    }
+    60% {
+        font-family: "Satisfy", sans-serif;
+    }
+    70% {
+        font-family: "Amatic sc", sans-serif;
+    }
+    80% {
+        font-family: "Shadows Into Light", sans-serif;
+    }
+    90% {
+        font-family: "Macondo", sans-serif;
+    }
+    100% {
+        font-family: "Creepster", sans-serif;
+    }
+}
+/*------------------------media query-------------------------------------------*/
+@media only screen and (max-width: 1500px) {
+    #about_me>#hero_name{
+        cursor: default;
+        user-select: none;
+        width: 300px;
+        height: fit-content;
+        position: absolute;
+        right:100px;
+        font-family: "Lobster",sans-serif;
+        font-size: 70px;
+        text-align: right;
+        animation: hero-name-animation 10s infinite;
+        color: #F8FF95;
+    }
+    #about_me>#details_self{
+        position: absolute;
+        list-style-type: none;
+        width: 300px;
+        top:320px;
+        right: 100px;
+        user-select: none;
+    }
+    #about_me>article>#myself{
+        position: absolute;
+        font-size: 20px;
+        left: 100px;
+        top: 200px;
+        width: 300px;
+        color: #F8FF95;
+        font-weight: bold;
+        cursor: default;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #about_me>#hero_name{
+        cursor: default;
+        user-select: none;
+        width: 200px;
+        height: fit-content;
+        position: absolute;
+        right:100px;
+        font-family: "Lobster",sans-serif;
+        font-size: 70px;
+        text-align: right;
+        animation: hero-name-animation 10s infinite;
+        color: #F8FF95;
+    }
+    #about_me>#details_self{
+        position: absolute;
+        list-style-type: none;
+        width: 200px;
+        top:320px;
+        right: 100px;
+        user-select: none;
+    }
+    #about_me>#details_self>li{
+        font-weight: bolder;
+        margin: 10px;
+        font-size: 16px;
+        cursor: default;
+    }
+    #about_me>article>#myself{
+        position: absolute;
+        font-size: 16px;
+        left: 100px;
+        top: 200px;
+        width: 270px;
+        color: #F8FF95;
+        font-weight: bold;
+        cursor: default;
+    }
+    #about_me>button {
+        cursor: pointer;
+        position: absolute;
+        top: 540px;
+        left: 100px;
+        border-radius: 30px;
+        border: #F8FF95 solid 4px;
+        width: 140px;
+        height: 50px;
+        background: #A084E8;
+        color: #F8FF95;
+    }
+    #about_me>article>#heyText{
+        width: fit-content;
+        height: fit-content;
+        font-family: "Homemade apple",sans-serif;
+        font-size: 25px;
+        position: absolute;
+        left: 100px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #about_me>h1{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        font-size: 50px;
+        color: white;
+        left: 10%;
+        margin: 0;
+    }
+    #about_me>#profile_card{
+        position: absolute;
+        width: 250px;
+        height: 370px;
+        background: #F8FF95;
+        border-radius: 50px 50px 0 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+    }
+    #about_me>#profile_card>#prof_img_frame{
+        position: absolute;
+        width: 230px;
+        border: 10px solid red;
+        border-bottom-color: darkslategray;
+        border-top-color: darkslategray;
+        border-radius: 100%;
+        aspect-ratio: 1/1;
+        background: red;
+        right: 0;
+        top: 10px;
+        left: 0;
+        margin: auto;
+        box-shadow: 0px 0px 5px 7px rgba(251,0,255,1);
+    }
+    #about_me>#profile_card>#prof_img_frame>#prof-img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        width: 230px;
+        aspect-ratio: 1/1;
+        animation: prof-img-animation 20s infinite ;
+    }
+    #about_me>#profile_card>.aboutmetxt{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top:270px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 40px;
+        animation: aboutme-span-animation 2s infinite;
+        cursor: default;
+        user-select: none;
+    }
+    #about_me>#profile_card>.aboutmetxt:nth-child(2){
+        animation: aboutme-span-animation 3s infinite;
+        top: 290px;
+
+    }
+    #about_me>#profile_card>.aboutmetxt:nth-child(3){
+        animation: aboutme-span-animation 4s infinite;
+        top: 310px;
+    }
+    #about_me>#profile_card>.aboutmetxt:nth-child(4){
+        animation: aboutme-span-animation 5s infinite;
+        top: 330px;
+
+    }
+    #about_me>#hero_name{
+        cursor: default;
+        user-select: none;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right:100px;
+        top:430px;
+        font-family: "Lobster",sans-serif;
+        font-size: 60px;
+        text-align: center;
+        animation: hero-name-animation 10s infinite;
+        color: #F8FF95;
+    }
+    #about_me>article>#heyText{
+        width: fit-content;
+        height: fit-content;
+        font-family: "Homemade apple",sans-serif;
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top:580px;
+    }
+    #about_me>article>#myself{
+        position: absolute;
+        font-size: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 670px;
+        width: 370px;
+        color: #F8FF95;
+        font-weight: bold;
+        cursor: default;
+    }
+    #about_me>#details_self{
+        position: absolute;
+        list-style-type: none;
+        width: 400px;
+        top:840px;
+        right: 10%;
+        user-select: none;
+    }
+    #about_me>#details_self>li{
+        font-weight: bolder;
+        margin: 10px;
+        font-size: 20px;
+        cursor: default;
+    }
+    #about_me>#details_self>li>a{
+        text-decoration: none;
+        color: #F8FF95;
+    }
+    #about_me>#linkedin_aboutme{
+        position: absolute;
+        top: 1070px;
+        left: 100px;
+        color: #A084E8;
+        font-size: 15px;
+    }
+    #about_me>#linkedin_aboutme:hover{
+        color: black;
+        font-size: 16px;
+    }
+    #about_me>#github_aboutme{
+        position: absolute;
+        top: 1070px;
+        left: 170px;
+        color: #A084E8;
+    }
+    #about_me>#github_aboutme:hover{
+        color: black;
+        font-size: 16px;
+    }
+    #about_me>button {
+        cursor: pointer;
+        position: absolute;
+        top: 1080px;
+        left: 250px;
+        border-radius: 30px;
+        border: #F8FF95 solid 4px;
+        width: 140px;
+        height: 50px;
+        background: #A084E8;
+        color: #F8FF95;
+    }
+    #about_me>button:hover{
+        color: #ff253a;
+        background: #F8FF95;
+    }
 }
