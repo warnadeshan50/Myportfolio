@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9028c35e-bfc7-44c8-acb4-2d257b4c9995" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assist/css/education.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/gdse-program-photo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/instertute-photo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/school_photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/css/skill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/bootstrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/cisco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/figma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/intellij-idea-icon-512x506-3kksf9dh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/visual-studio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/js/skills_tangols.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/css/page_body_fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/page_body_fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/img/background_home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/img/github_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/img/linkin_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/img/whatsapp_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/img/youtube_icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "style",
-    "last_opened_file_path": "D:/IJSE Work Place/Html/port/Myportfolio/assist/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;style&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE Work Place/Html/my_portfolio/Myportfolio&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img" />
@@ -96,7 +94,9 @@
       <workItem from="1697285940191" duration="1189000" />
       <workItem from="1697362703241" duration="2890000" />
       <workItem from="1697436240736" duration="9111000" />
-      <workItem from="1697521318897" duration="4512000" />
+      <workItem from="1697521318897" duration="11395000" />
+      <workItem from="1697555044313" duration="1190000" />
+      <workItem from="1697696750077" duration="7724000" />
     </task>
     <task id="LOCAL-00001" summary="reorganize ui">
       <created>1696977373339</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697439363129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="education section responsive complete">
+      <created>1697525971977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697525971977</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reorganize ui" />
     <MESSAGE value="about me section responsive complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="about me section responsive complete" />
+    <MESSAGE value="education section responsive complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="education section responsive complete" />
   </component>
 </project>

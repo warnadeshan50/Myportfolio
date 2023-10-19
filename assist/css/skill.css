@@ -1,0 +1,431 @@
+#skills{
+    width: 100%;
+    position: absolute;
+    top:1000px;
+}
+#skills>h1{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 100px;
+}
+#skills>#tangols>div{
+    width: 0;
+    height:0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid red;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+
+}
+#skills>#tangols>div:nth-child(1){
+    animation: tangol-odd-animation 5s infinite;
+    animation-delay: 2.5s;
+}
+#skills>#tangols>div:nth-child(2){
+    transform: rotate(180deg);
+    left: 500px;
+    border-bottom: 50px solid #FFD600;
+    animation: tangol-even-animation 5s infinite;
+}
+#skills>#tangols>div:nth-child(3){
+    left: 550px;
+    border-bottom: 50px solid #52FF00;
+    animation: tangol-odd-animation 5s infinite;
+    animation-delay: 2.5s;
+}
+#skills>#tangols>div:nth-child(4){
+    left: 600px;
+    transform: rotate(180deg);
+    border-bottom: 50px solid #00FFD1;
+    animation: tangol-even-animation 5s infinite;
+}
+#skills>#tangols>div:nth-child(5){
+    left: 650px;
+    border-bottom: 50px solid #0066FF;
+    animation: tangol-odd-animation 5s infinite;
+    animation-delay: 2.5s;
+}
+#skills>#tangols>div:nth-child(6){
+    left: 700px;
+    transform: rotate(180deg);
+    border-bottom: 50px solid #FA0CFF;
+    animation: tangol-even-animation 5s infinite;
+}
+#skills>ul{
+    list-style-type: none;
+    position: absolute;
+    top:200px;
+    left: 10%;
+}
+#skills>ul>li{
+    position: absolute;
+}
+#skills>ul>li>div{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    background: white;
+}
+#skills>ul>li:nth-child(1)>div{
+    background-size: cover;
+    background: url("../../assist/img/java_logo.png") center;
+
+}
+#skills>ul>li:nth-child(2)>div{
+    background-size: cover;
+    background: url("../../assist/img/mysql_logo.png") center;
+    left: 400px;
+}
+#skills>ul>li:nth-child(3)>div{
+    background-size: cover;
+    background: url("../../assist/img/html_logo.png") center;
+    top: 150px;
+}
+#skills>ul>li:nth-child(4)>div{
+    background-size: cover;
+    background: url("../../assist/img/java-script_logo.png") center;
+    top: 150px;
+    left: 400px;
+}
+#skills>ul>li>div>h3{
+    font-size: 19px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+#skills>ul>li>div>.progress{
+    width: 150px;
+    height: 10px;
+    border-radius: 100px;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+}
+#skills>ul>li>div>.progress>div{
+    width: 65%;
+    height: 10px;
+    border-radius: 100px;
+    background: orange;
+    position: absolute;
+    animation: progs-bar 5s infinite;
+}
+#skills>#extra>.icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: url("../../assist/img/intellij-idea-icon-512x506-3kksf9dh.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra>#intellij{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 160px;
+    margin: auto;
+    background: url("../../assist/img/intellij-idea-icon-512x506-3kksf9dh.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra>#bootstrap{
+    position: absolute;
+    bottom: 0;
+    top: 90px;
+    right:160px;
+    margin: auto;
+    background: url("../../assist/img/bootstrap.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra>#figma{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    margin: auto;
+    background: url("../../assist/img/figma.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra>#vscode{
+    position: absolute;
+    bottom: 0;
+    top: 90px;
+    left:160px;
+    margin: auto;
+    background: url("../../assist/img/visual-studio.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra>#cisco{
+    position: absolute;
+    left: 0;
+    right: 210px;
+    bottom: 110px;
+    margin: auto;
+    background: url("../../assist/img/cisco.png");
+    background-position: center;
+    background-size: cover;
+
+}
+#skills>#extra>#git{
+    position: absolute;
+    right: 0;
+    left: 140px;
+    bottom: 120px;
+    margin: auto;
+    background: url("../../assist/img/code.png");
+    background-position: center;
+    background-size: cover;
+}
+#skills>#extra{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    border: cadetblue solid 2px;
+    right: 0;
+    left: 50%;
+    top: 225px;
+    margin: auto;
+    animation: extra-animation 5s infinite;
+}
+/*----------------animation skills tangols---------*/
+@keyframes tangol-even-animation {
+    0%{
+        margin-top: 5px;
+        transform: rotate(0deg);
+
+    }
+    50%{
+        margin-top: -5px;
+        transform: rotate(180deg);
+    }
+    100%{
+        margin-top: 5px;
+        transform: rotate(360deg);
+    }
+}
+@keyframes tangol-odd-animation {
+    0%{
+        margin-top: -5px;
+        transform: rotate(360deg);
+
+    }
+    50%{
+        margin-top: 5px;
+        transform: rotate(180deg);
+    }
+    100%{
+        margin-top: -5px;
+        transform: rotate(0deg);
+    }
+}
+@keyframes progs-bar{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes extra-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*------------------media query--------------*/
+@media only screen and (max-width: 1400px) {
+    #skills>h1{
+        font-size: 100px;
+        color: white;
+        position: absolute;
+        left: 10%;
+    }
+    #skills>#extra{
+        position: absolute;
+        width:200px;
+        height: 200px;
+        border-radius: 100%;
+        border: cadetblue solid 2px;
+        right: 0;
+        left: 0;
+        top: 500px;
+        margin: auto;
+        animation: extra-animation 5s infinite;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #skills{
+        width: 100%;
+        position: absolute;
+        top:2200px;
+    }
+    #skills>h1{
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        left: 10%;
+    }
+    #skills>h1{
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 50px;
+    }
+    #skills>#tangols{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 5%;
+    }
+    #skills>#tangols>div{
+        width: 0;
+        height:0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 30px solid red;
+        position: absolute;
+        top: 80px;
+        left: 225px;
+    }
+    #skills>#tangols>div:nth-child(1){
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(2){
+        transform: rotate(180deg);
+        left: 260px;
+        border-bottom: 50px solid #FFD600;
+        animation: tangol-even-animation 5s infinite;
+    }
+    #skills>#tangols>div:nth-child(3){
+        left: 295px;
+        border-bottom: 50px solid #52FF00;
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(4){
+        left: 330px;
+        transform: rotate(180deg);
+        border-bottom: 50px solid #00FFD1;
+        animation: tangol-even-animation 5s infinite;
+    }
+    #skills>#tangols>div:nth-child(5){
+        left: 365px;
+        border-bottom: 50px solid #0066FF;
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(6){
+        left: 400px;
+        transform: rotate(180deg);
+        border-bottom: 50px solid #FA0CFF;
+        animation: tangol-even-animation 5s infinite;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #skills>h1{
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 50px;
+    }
+    #skills>#tangols{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 3%;
+    }
+    #skills>#tangols>div{
+        width: 0;
+        height:0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 30px solid red;
+        position: absolute;
+        top: 80px;
+        left: 225px;
+    }
+    #skills>#tangols>div:nth-child(1){
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(2){
+        transform: rotate(180deg);
+        left: 260px;
+        border-bottom: 50px solid #FFD600;
+        animation: tangol-even-animation 5s infinite;
+    }
+    #skills>#tangols>div:nth-child(3){
+        left: 295px;
+        border-bottom: 50px solid #52FF00;
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(4){
+        left: 330px;
+        transform: rotate(180deg);
+        border-bottom: 50px solid #00FFD1;
+        animation: tangol-even-animation 5s infinite;
+    }
+    #skills>#tangols>div:nth-child(5){
+        left: 365px;
+        border-bottom: 50px solid #0066FF;
+        animation: tangol-odd-animation 5s infinite;
+        animation-delay: 2.5s;
+    }
+    #skills>#tangols>div:nth-child(6){
+        left: 400px;
+        transform: rotate(180deg);
+        border-bottom: 50px solid #FA0CFF;
+        animation: tangol-even-animation 5s infinite;
+    }
+    #skills>ul>li>div{
+        width: 90px;
+        height: 90px;
+        border-radius: 20px;
+        position: absolute;
+        background-size: cover;
+        background: white center;
+    }
+    #skills>ul>li:nth-child(1)>div{
+        background-size: cover;
+        background: url("../../assist/img/java_logo.png") center;
+
+
+    }
+    #skills>ul>li:nth-child(2)>div{
+        background-size: cover;
+        background: url("../../assist/img/mysql_logo.png") center;
+        left: 0;
+        top: 450px;
+
+    }
+    #skills>ul>li:nth-child(3)>div{
+        background-size: cover;
+        background: url("../../assist/img/html_logo.png") center;
+
+
+    }
+    #skills>ul>li:nth-child(4)>div{
+        background-size: cover;
+        background: url("../../assist/img/java-script_logo.png") center;
+        left: 0;
+        top: 300px;
+    }
+    #skills>#extra{
+        top: 800px
+    }
+
+}
