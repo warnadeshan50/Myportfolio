@@ -5,16 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9028c35e-bfc7-44c8-acb4-2d257b4c9995" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assist/css/skill.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/cisco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/intellij-idea-icon-512x506-3kksf9dh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/visual-studio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/js/skills_tangols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/assist/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/assist/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/css/style_sheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/ijse logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/image_processing20200603-10766-1vtqqhy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/assist/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/assist/css/stylesheet03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/assist/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/assist/stylesheet04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/assist/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/assist/css/stylesheet05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case06/assist/css/stylesheet06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case06/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/css/blogs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/css/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/note_paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/paper_efect_textfiled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/js/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/css/about_me.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/about_me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/css/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/preloader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/css/skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/skill.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/gallery06.png" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/gallery06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/gallery07.png" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/gallery07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/photo01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/photo02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/photo03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/photo04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/gallery/photo05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,28 +88,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;style&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IJSE Work Place/Html/my_portfolio/Myportfolio&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "style",
+    "last_opened_file_path": "D:/IJSE Work Place/Html/port/Myportfolio/assist/assagments",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\assagments" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img\assignments_screen_shots" />
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img\case11" />
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\lib" />
     </key>
@@ -96,7 +143,16 @@
       <workItem from="1697436240736" duration="9111000" />
       <workItem from="1697521318897" duration="11395000" />
       <workItem from="1697555044313" duration="1190000" />
-      <workItem from="1697696750077" duration="7724000" />
+      <workItem from="1697696750077" duration="10715000" />
+      <workItem from="1697775596796" duration="12134000" />
+      <workItem from="1698047342043" duration="8301000" />
+      <workItem from="1698129464477" duration="610000" />
+      <workItem from="1698155518767" duration="1097000" />
+      <workItem from="1698240963774" duration="3643000" />
+      <workItem from="1698292291678" duration="7512000" />
+      <workItem from="1698306876337" duration="914000" />
+      <workItem from="1698309109134" duration="6931000" />
+      <workItem from="1699475604785" duration="3358000" />
     </task>
     <task id="LOCAL-00001" summary="reorganize ui">
       <created>1696977373339</created>
@@ -119,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697525971977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="skills section responsive complete">
+      <created>1697704822456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697704822456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +192,7 @@
     <MESSAGE value="reorganize ui" />
     <MESSAGE value="about me section responsive complete" />
     <MESSAGE value="education section responsive complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="education section responsive complete" />
+    <MESSAGE value="skills section responsive complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="skills section responsive complete" />
   </component>
 </project>

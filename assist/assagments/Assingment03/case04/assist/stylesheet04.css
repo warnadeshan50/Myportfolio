@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+main>.card>div:nth-child(1){
+    width: 100%;
+    height:80px;
+    background: red;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+main>.card>div:nth-child(2){
+    width: 100%;
+    height:640px;
+    background: white;
+    position: sticky;
+}
+main>section:nth-child(2)>div:nth-child(2){
+    background: deepskyblue;
+}
+main>section:nth-child(3)>div:nth-child(2){
+    background: dimgray;
+}
+main>section:nth-child(4)>div:nth-child(2){
+    background: red;
+}
+
+main>section:nth-child(2)>div:nth-child(1){
+    background: darkslateblue;
+    position: sticky;
+    top:0;
+}
+main>section:nth-child(3)>div:nth-child(1){
+    background: darkslategray;
+    position: sticky;
+    top:0;
+}
+main>section:nth-child(4)>div:nth-child(1){
+    background: darkred;
+    position: sticky;
+    top:0;
+}
+main>section>div:nth-child(1)>span{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    margin: 15px;
+
+}
+main>section>div:nth-child(2)>span {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    font-size: 200px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

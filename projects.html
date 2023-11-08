@@ -7,73 +7,349 @@
     <meta name = "keywords" content = "html,css,java,ijse,software">
     <meta name = "author" content= "warna deshan silva">
     <meta name = "viewport" content="width=device-width,initial-scale1.0">
+    <!--jura font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--lobster font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assist/css/preloader.css">
+    <link rel="stylesheet" href="assist/lib/normalize.css">
+
+    <link rel="stylesheet" href="assist/css/navgation_bar.css">
+    <link rel="stylesheet" href="assist/css/page_body_fonts.css">
+    <link rel="stylesheet" href="assist/css/projects.css">
+
+
 </head>
 <body>
+<div id="preloader">
+    <div id="preloader_over_layer"></div>
+    <img src="assist/img/Reload-1s-200px.gif" alt="wda">
+</div>
+<div></div>
+<div></div>
 <header>
-    <nav class="navbar">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#aboutme">About me</a>
-        <a href="projects.html#projects">Projects</a>Projects
-        <a href="gallery.html#gallery">Gallery</a>
-        <a href="index.html#blogs">Blogs</a>
-        <a href="index.html#contact">Contact</a>
+    <!--web nav-->
+    <nav id="web-navbar">
+        <div>
+            <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
+        </div>
+        <span>
+                Warna <br><span>Deshan</span>
+            </span>
+        <ul>
+            <li><a href="index.html#about_me">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html#blogs">Blogs</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--tab nav-->
+    <nav id="tab-navbar">
+        <div>
+            <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
+        </div>
+        <span class="span-tab-mob">
+                Warna <br><span>Deshan</span>
+            </span>
+        <ul class="tab_mob_nav_list">
+            <li><a href="index.html#about_me">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html#blogs">Blogs</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <button type="button" id="tab-btn-menu" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <!--mob nav-->
+    <nav id="mob-navbar">
+        <div>
+            <img src="assist/img/profile_icon.ico" alt="Warna profile icon" width="65px" height="65px">
+        </div>
+        <span class="span-mob-tab">
+                Warna <br><span>Deshan</span>
+            </span>
+        <ul class="tab_mob_nav_list">
+            <li><a href="index.html#about_me">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html#blogs">Blogs</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <button type="button" id="mob-btn-menu" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
     </nav>
 </header>
 <main>
-    <section>
-        <h1 id="projects">COLORS PROJECTS</h1>
-            <a href="https://github.com/warnadeshan50/JDBC_gaming_cafe_management_system_MVC">
-            <img src="assist/img/gaming_arena_screen_shot.png" alt="JDBC gaming cafe management system screen shot">
-            <button>visit GIT</button>
-        </a>
-        <a href="https://github.com/warnadeshan50/chatapp-java-socket">
-            <img src="assist/img/chatapp_screen_shot.png" alt="" height="368" width="513">
-            <button>visit GIT</button>
-        </a>
+    <section id="project">
+
+        <h1 id="projects-txt">COLORS PROJECTS</h1>
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="frame">
+                <div class="numbertext">1 / 3</div>
+                <img src="assist/img/gaming_arena_screen_shot.png" class="img" style="width:100%" alt="Gaming arena screen shot">
+                <div class="text">Gaming Arena & PC Solutions </div>
+                    <button type="button" class="git_btn">visit GIT</button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="frame">
+                <div class="numbertext">2 / 3</div>
+                <img src="assist/img/chatapp_screen_shot.png" class="img" style="width:100%" alt="Chatapp screen shot">
+                <div class="text">Chat Application</div>
+                    <button type="button" class="git_btn">Visit GIT</button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="frame">
+                <div class="numbertext">3 / 3</div>
+                <img src="img3.jpg" style="width:100%" alt="">
+                <div class="text">Caption Three</div>
+                    <button type="button" class="git_btn"></button>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </section>
-</main>
-<main>
-    <section>
+    <section id="assign">
         <h1>COLORS ASSIGNMENTS</h1>
-        <a href="" >
-            <button>Assignment 01</button>
-        </a>
-        <a href="" >
-            <button>Assignment 02</button>
-        </a>
-        <a href="" >
-            <button>Assignment 03</button>
-        </a>
-        <a href="" >
-            <button>Assignment 04</button>
-        </a>
-        <a href="" >
-            <button>Assignment 05</button>
-        </a>
+        <div class="flex">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="assist/img/assignments_screen_shots/case01.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Assignment 01</h1>
+                    <p>Responsive Practices</p>
+                    <p>CSS</p>
+                    <button type="button" id="btn_c1_c" class="code_btn">Code</button>
+                    <button type="button" id="btn_s1_s" class="visit_btn">Visit</button>
+                </div>
+            </div>
+        </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case02.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 02</h1>
+                        <p>Responsive Website</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c2_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s2_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case03.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 03</h1>
+                        <p>Fix position Practice</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c3_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s3_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case04.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 04</h1>
+                        <p>Fix position Card</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c4_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s4_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case05.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 05</h1>
+                        <p>Animation Practice Nav-bar</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c5_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s5_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case06.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 06</h1>
+                        <p>Hover Before After Pseudo-classes</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c6_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s6_s"class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case07.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 07</h1>
+                        <p>Animations Practice</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c7_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s7_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case08.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 08</h1>
+                        <p>Drop Opacity</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c8_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s8_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case09.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 09</h1>
+                        <p>Slide Animation</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c9_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s9_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case10.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 10</h1>
+                        <p>Car Animation</p>
+                        <p>CSS</p>
+                        <button type="button" id="btn_c10_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s10_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case11.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 11</h1>
+                        <p>Que Practice Arrays and JS</p>
+                        <p>CSS & JAVA SCRIPT</p>
+                        <button type="button" id="btn_c11_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s11_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assist/img/assignments_screen_shots/case12.png" alt="Avatar" style="width:300px;height:200px;" class="img_ass">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Assignment 12</h1>
+                        <p>Night Rider CSS JS Practice</p>
+                        <p>CSS & JAVA SCRIPT</p>
+                        <button type="button" id="btn_c12_c" class="code_btn">Code</button>
+                        <button type="button" id="btn_s12_s" class="visit_btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
-<br><br>
-<footer>
-    <label>Warna Deshan Silva</label><br><br>
-    <label>38/2 Railwaylane Kalutara North</label><br><br>
-    <a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a><br><br>
-    <a href="tel:+94762079221">+94 76 207 9221</a><br><br>
-    <a href="https://wa.me/+94762079221">
-        <img src="assist/img/whatsapp_icon.png" alt="footer_whatsapp_logo" width="70" height="70"></a>
-    <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D">
-        <img src="assist/img/linkin_icon.png" alt="footer_linkin_logo" width="70" height="70">
-    </a>
-    <a href="https://web.facebook.com/profile.php?id=100009423883135">
-        <img src="assist/img/facebook_icon.png" alt="footer_facebook_logo" width="70" height="70"></a>
-    <a href="https://github.com/warnadeshan50">
-        <img src="assist/img/github_icon.png" alt="footer_github_icon" width="70" height="70"></a>
-    <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ">
-        <img src="assist/img/youtube_icon.png" alt="footer_youtube_logo" width="70" height="70"></a>
-    <br><br>
-    <img src="assist/img/footer_logo.png" alt="footer_profile_logo" height="142" width="159" >
-    <label>Warna Deshan</label><br>
-    <br>
-    <label>©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </label>
-</footer>
+<!--<footer>-->
+<!--    <label>Warna Deshan Silva</label><br><br>-->
+<!--    <label>38/2 Railwaylane Kalutara North</label><br><br>-->
+<!--    <a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a><br><br>-->
+<!--    <a href="tel:+94762079221">+94 76 207 9221</a><br><br>-->
+<!--    <a href="https://wa.me/+94762079221">-->
+<!--        <img src="assist/img/whatsapp_icon.png" alt="footer_whatsapp_logo" width="70" height="70"></a>-->
+<!--    <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D">-->
+<!--        <img src="assist/img/linkin_icon.png" alt="footer_linkin_logo" width="70" height="70">-->
+<!--    </a>-->
+<!--    <a href="https://web.facebook.com/profile.php?id=100009423883135">-->
+<!--        <img src="assist/img/facebook_icon.png" alt="footer_facebook_logo" width="70" height="70"></a>-->
+<!--    <a href="https://github.com/warnadeshan50">-->
+<!--        <img src="assist/img/github_icon.png" alt="footer_github_icon" width="70" height="70"></a>-->
+<!--    <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ">-->
+<!--        <img src="assist/img/youtube_icon.png" alt="footer_youtube_logo" width="70" height="70"></a>-->
+<!--    <br><br>-->
+<!--    <img src="assist/img/footer_logo.png" alt="footer_profile_logo" height="142" width="159" >-->
+<!--    <label>Warna Deshan</label><br>-->
+<!--    <br>-->
+<!--    <label>©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </label>-->
+<!--</footer>-->
+<script src="assist/lib/jquery.min.js"></script>
+<script src="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assist/js/mob_navbar.js"></script>
+<script src="assist/js/mob_navbar.js"></script>
+<script src="assist/js/projects.js"></script>
+<script>
+    AOS.init();
+    window.onload=()=>{
+        console.log("A");
+        $("#preloader").css({"display":"none"});
+    }
+    document.addEventListener("DOMContentLoaded",()=>{
+        console.log("B");
+    });
+    $(window).ready(()=>{
+        console.log("C")
+    });
+</script>
 </body>
 </html>

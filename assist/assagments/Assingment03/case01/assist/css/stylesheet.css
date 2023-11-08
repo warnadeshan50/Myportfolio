@@ -1,0 +1,109 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main{
+    width:50vw ;
+    height: 50vh;
+    position: absolute;
+}
+section>.main:first-child{
+    background: red;
+}
+section>.main:nth-child(2){
+    background: green;
+    right: 0;
+}
+section>.main:nth-child(3){
+    background: yellow;
+    left: 0;
+    bottom: 0;
+}
+section>.main:nth-child(4){
+    background: pink;
+    right:0;
+    bottom: 0;
+}
+section>#mid{
+    background: white;
+    width: 15vw;
+    height: 15vw;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+section>#mid_cricle{
+    background: red;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+section>.main>div{
+    background: white;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+section>.main>div>div{
+    background: red;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+div{
+    background: white;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+}
+#c1{
+    border-radius: 0 0 100% 0 /0 0 100% 0;
+}
+#c2{
+    right: 0;
+    border-radius: 0 0 0 100% /0 0 0 100%;
+}
+#c3{
+    right: 0;
+    bottom: 0;
+    border-radius: 100% 0 0 0 /100% 0 0 0;
+}
+#c4{
+    left: 0;
+    bottom: 0;
+    border-radius: 0 100% 0 0 /0 100% 0 0;
+}
+#c5{
+    width: 20vw;
+    left :calc(50% - 10vw);
+    border-radius: 0 0 50% 50% / 0 0 100% 100%
+
+}
+#c6{
+    width: 20vw;
+    bottom: 0;
+    left :calc(50% - 10vw);
+    border-radius: 50% 50% 0 0 /100% 100% 0 0;
+}

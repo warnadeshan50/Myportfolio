@@ -1,19 +1,17 @@
 footer * {
     color: white;
 }
-footer{
-    position: relative;
+#footer{
+    position: absolute;
 }
-footer>.footer{
-    position: relative;
-    top: 2700px;
+footer>#footer{
     width: 100%;
     height: 250px;
     background: black;
     font-family: "JetBrains Mono", serif;
     /*font-style: italic;*/
 }
-footer>.footer>span{
+footer>#footer>span{
     font-family: "JetBrains Mono", serif;
     /*font-style: italic;*/
     color: white;
@@ -24,34 +22,28 @@ footer>.footer>span{
     margin: 10px 0 10px 0;
     font-size: 25px;
 }
-footer.footer>span>a{
+footer>#footer>span>a{
     text-decoration: none;
 }
-footer>.footer>span:nth-child(2){
+footer>#footer>span:nth-child(2){
     top:50px;
 }
-footer>.footer>span:nth-child(3){
+footer>#footer>span:nth-child(3){
     top:110px;
     text-decoration: none;
 }
-footer>.footer>span>a{
+footer>#footer>span>a{
     color: white;
     text-decoration: none;
     font-family: "JetBrains Mono", serif;
     /*font-style: italic;*/
     font-weight: bold;
-
 }
-footer>.footer>span:nth-child(4){
+footer>#footer>span:nth-child(4){
     top:150px;
 }
-footer>.footer>.icons{
-    color:white;
-    position: absolute;
-    right: 300px;
-    bottom: 40px;
-}
-footer>.footer>.pic_frame{
+
+footer>#footer>.pic_frame{
     width: 110px;
     height: 110px;
     background: white;
@@ -60,7 +52,7 @@ footer>.footer>.pic_frame{
     top:10px;
     left:calc(100% - 300px)
 }
-footer>.footer>.pic_frame>img{
+footer>#footer>.pic_frame>img{
     position: absolute;
     width: 100px;
     height: 100px;
@@ -70,7 +62,7 @@ footer>.footer>.pic_frame>img{
     bottom: 0;
     margin: auto;
 }
-footer>.footer>#company>span{
+footer>#footer>#company>span{
     width: fit-content;
     height: fit-content;
     position: absolute;
@@ -81,11 +73,102 @@ footer>.footer>#company>span{
     top:50px;
     z-index: 9999;
 }
-footer>.footer>#copyright{
+footer>#footer>#copyright{
     position: absolute;
     bottom: 0;
     right:0;
     left:0;
     top:200px;
     margin: auto;
+}
+footer>#footer>#icons{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right:0;
+    left: 0;
+    margin: auto;
+}
+footer>#footer>#icons>a{
+    font-size: 70px;
+}
+#footer {
+    top: 2800px;
+    bottom: 0;
+    margin: auto;
+}
+@media only screen and (max-width: 1400px) {
+    #footer{
+        top:3100px;
+        bottom :0;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #footer{
+        top:4100px;
+        bottom :0;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #footer *{
+        font-size: 15px;
+    }
+    footer>#footer>span{
+        font-family: "JetBrains Mono", serif;
+        /*font-style: italic;*/
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        left: 100px;
+        margin: 10px 0 10px 0;
+        font-size: 15px;
+    }
+    #footer{
+        top:4500px;
+        bottom :0;
+        margin: auto;
+    }
+    footer>#footer>.pic_frame{
+        width: 80px;
+        height: 80px;
+        background: white;
+        border-radius: 100%;
+        position: absolute;
+        top:10px;
+        left:calc(100% - 160px)
+    }
+    footer>#footer>.pic_frame>img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    footer>#footer>#company>span{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        font-family: "JetBrains Mono", serif;
+        font-size: 20px;
+        color: white;
+        right: 5%;
+        top:90px;
+        z-index: 9999;
+    }
+    footer>#footer>#icons{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right:0;
+        left: 100px;
+        top:100px;
+        margin: auto;
+        display: none;
+    }
 }

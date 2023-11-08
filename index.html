@@ -27,10 +27,11 @@
 <!--comon fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@700&family=Creepster&family=Lilita+One&family=Macondo&family=Pacifico&family=Pixelify+Sans:wght@500&family=Satisfy&family=Shadows+Into+Light&family=Yellowtail&display=swap" rel="stylesheet">    <link rel="stylesheet" href="assist/lib/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@700&family=Creepster&family=Lilita+One&family=Macondo&family=Pacifico&family=Pixelify+Sans:wght@500&family=Satisfy&family=Shadows+Into+Light&family=Yellowtail&display=swap" rel="stylesheet">
 <!--    <link rel="stylesheet" href="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assist/css/preloader.css">
 
     <link rel="stylesheet" href="assist/css/navgation_bar.css">
@@ -38,6 +39,10 @@
     <link rel="stylesheet" href="assist/css/about_me.css">
     <link rel="stylesheet" href="assist/css/education.css">
     <link rel="stylesheet" href="assist/css/skill.css">
+    <link rel="stylesheet" href="assist/css/blogs.css">
+    <link rel="stylesheet" href="assist/css/contact.css">
+    <link rel="stylesheet" href="assist/css/footer.css">
+    <link rel="stylesheet" href="assist/lib/normalize.css">
 </head>
 <body>
 <div id="preloader">
@@ -56,7 +61,7 @@
                 Warna <br><span>Deshan</span>
             </span>
             <ul>
-                <li><a href="index.html#aboutme">About me</a></li>
+                <li><a href="index.html#about_me">About me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="index.html#blogs">Blogs</a></li>
@@ -73,7 +78,7 @@
                 Warna <br><span>Deshan</span>
             </span>
             <ul class="tab_mob_nav_list">
-                <li><a href="index.html#aboutme">About me</a></li>
+                <li><a href="index.html#about_me">About me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="index.html#blogs">Blogs</a></li>
@@ -99,7 +104,7 @@
             <button type="button" id="mob-btn-menu" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
         </nav>
     </header>
-    </header>
+
     <main>
 <!--about me-->
         <section id="about_me">
@@ -230,57 +235,45 @@
                 <div id="git" class="icon"></div>
             </div>
         </section>
-<!--        <section class="blogs">-->
-<!--            <h1 id="blogs">COLORS BLOGS</h1>-->
-<!--            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1000" height="443" type="text/html" src="https://www.youtube.com/embed/j9H2xpWKCr0?autoplay=1&fs=1&iv_load_policy=1&showinfo=1&rel=1&cc_load_policy=0&start=0&end=0"></iframe>-->
-<!--        </section>-->
-<!--        <section class="contact">-->
-<!--            <h1 id="contact">COLORS CONTACT</h1>-->
-<!--            <form class="contact_form">-->
-<!--                <label for="name">NAME</label>-->
-<!--                <input type="text" id="name" name="name"><br>-->
-<!--                <label for="email">E-MAIL</label>-->
-<!--                <input type="email" id="email" name="email"><br>-->
-<!--                <label for="phone">PHONE NO</label>-->
-<!--                <input type="tel" id="phone" name="phone"><br>-->
-<!--                <label for="message">MESSAGE</label>-->
-<!--                <textarea id="message" name="message"></textarea><br>-->
-<!--                <button id="submit" name="submit" value="submit">submit</button>-->
-<!--                <button id="reset" name="reset" value="reset">reset</button>-->
-<!--                <br>-->
-<!--                <br>-->
-<!--                <a href="https://wa.me/+94762079221">-->
-<!--                    <i class="fa-brands fa-whatsapp fa-4x"></i>-->
-<!--                </a>-->
-<!--                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D">-->
-<!--                    <i class="fa-brands fa-linkedin-in fa-4x"></i>-->
-<!--                </a>-->
-<!--                <a href="https://web.facebook.com/profile.php?id=100009423883135">-->
-<!--                    <i class="fa-brands fa-facebook fa-4x"></i>-->
-<!--                </a>-->
-<!--            </form>-->
-<!--        </section>-->
+        <section id="blogs">
+            <h1 id="blogs-txt">COLORS BLOGS</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XrNPuc3BUrw?si=MglMGbxQV6CE84pB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
+        </section>
+        <section id="contact">
+            <h1 id="contact-txt">COLORS CONTACT</h1>
+            <form id="contact_form">
+                    <p>Hey, Colors!</p>
+                    <label for="name">My name is <input type="text" id="name" placeholder="your name"></label><label for="message"> and I'm writting tou you since I'm interested in
+                        <input id="message" type="text" placeholder="your message">.</label>
+                <br>
+                <br>
+                    <label>This is my email <input type="email" placeholder="your email" id="email">.</label><label> & number <input type="number" placeholder="your number" id="number">.</label>
+                <br>
+                    <p>Hope to get in touch soon. Cheers!</p>
+                    <button type="submit" class="button button--xlarge" tabindex="4">Send message &#187;</button>
+            </form>
+        </section>
     </main>
-<!--<footer>-->
-<!--    <section class="footer">-->
-<!--        <span>Warna Deshan Silva</span>-->
-<!--        <span>38/2 Railway lane<br> Kalutara North</span>-->
-<!--        <span><a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a></span>-->
-<!--        <span><a href="tel:+94762079221">+94 76 207 9221</a></span>-->
-<!--            <div class="icons">-->
-<!--                <a href="https://wa.me/+94762079221"><i class="fa-brands fa-square-whatsapp fa-4x" style="color: #ffffff;"></i></a>-->
-<!--                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D"><i class="fa-brands fa-linkedin fa-4x" style="color: #ffffff;"></i></a>-->
-<!--                <a href="https://web.facebook.com/profile.php?id=100009423883135"><i class="fa-brands fa-square-facebook fa-4x" style="color: #ffffff;"></i></a>-->
-<!--                <a href="https://github.com/warnadeshan50"><i class="fa-brands fa-square-git fa-4x" style="color: #ffffff;"></i></a>-->
-<!--                <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ"><i class="fa-brands fa-square-youtube fa-4x" style="color: #ffffff;"></i></a>-->
-<!--            </div>-->
-<!--        <div class="pic_frame">-->
-<!--        <img src="assist/img/profile_icon.ico" alt="footer_profile_logo" >-->
-<!--        </div>-->
-<!--        <div id="company"><span>Warna<br>Deshan</span></div>-->
-<!--        <span id="copyright">©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </span>-->
-<!--    </section>-->
-<!--</footer>-->
+<footer>
+    <section id="footer">
+        <span>Warna Deshan Silva</span>
+        <span>38/2 Railway lane<br> Kalutara North</span>
+        <span><a href="mailto:warnadeshan50@gmail.com">warnadeshan50@gmail.com</a></span>
+        <span><a href="tel:+94762079221">+94 76 207 9221</a></span>
+            <div id="icons">
+                <a href="https://wa.me/+94762079221"><i class="fa-brands fa-square-whatsapp ico " style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/in/warna-deshan-silva-b82b4a256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba%2Bj4XAYDRhGCyMrE55S4nw%3D%3D"><i class="fa-brands fa-linkedin ico " style="color: #ffffff;"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=100009423883135"><i class="fa-brands fa-square-facebook ico" style="color: #ffffff;"></i></a>
+                <a href="https://github.com/warnadeshan50"><i class="fa-brands fa-square-git ico" style="color: #ffffff;"></i></a>
+                <a href="https://www.youtube.com/channel/UCkMCIzEhd5DcxPg3fRbbdRQ"><i class="fa-brands fa-square-youtube ico" style="color: #ffffff;"></i></a>
+            </div>
+        <div class="pic_frame">
+        <img src="assist/img/profile_icon.ico" alt="footer_profile_logo" >
+        </div>
+        <div id="company"><span>Warna<br>Deshan</span></div>
+        <span id="copyright">©️ ALL RIGHTS RESERVED @WARNA DESHAN-2023 </span>
+    </section>
+</footer>
 <script src="assist/lib/jquery.min.js"></script>
 <script src="assist/lib/fontawesome-free-6.4.2-web/css/fontawesome.min.css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>

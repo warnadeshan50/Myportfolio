@@ -1,0 +1,50 @@
+body>div{
+    display: grid;
+    border: black solid 2px;
+    width: 95vw;
+    height: 95vh;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>div>div{
+    background: red;
+    border: 2px solid black;
+}
+body>div>div:nth-child(2){
+    background: yellow;
+}
+body>div>div:nth-child(3){
+    background: deeppink;
+}
+body>div>div:nth-child(4){
+    background: brown;
+}
+body>div>div:nth-child(5){
+    background: greenyellow;
+}
+body>div>div:nth-child(6){
+    background: deepskyblue;
+}
+body>div>div:nth-child(7){
+    background: palegoldenrod;
+}
+body>div>div:nth-child(8){
+    background: lightslategray;
+}
+body>div>div:nth-child(9){
+    background: olive;
+}
+body>div>div:nth-child(10){
+    background: orchid;
+}
+body>div>div:nth-child(11){
+    background: slategray;
+}
+body>div>div:nth-child(12){
+    background: slateblue;
+}

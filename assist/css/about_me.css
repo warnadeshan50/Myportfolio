@@ -48,6 +48,7 @@
     width: 280px;
     aspect-ratio: 1/1;
     animation: prof-img-animation 20s infinite ;
+    z-index: 9999;
 }
 #about_me>#profile_card>.aboutmetxt{
     width: fit-content;
@@ -326,6 +327,9 @@
         position: absolute;
         left: 100px;
     }
+    #footer{
+        top: 2750px;
+    }
 }
 @media only screen and (max-width: 1000px) {
     #about_me>h1{
@@ -491,4 +495,5 @@
         color: #ff253a;
         background: #F8FF95;
     }
+
 }

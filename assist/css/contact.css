@@ -1,0 +1,102 @@
+#contact{
+    width: 100%;
+    position: absolute;
+    top:2100px;
+}
+#contact>h1{
+    position: absolute;
+    font-size: 100px;
+    left:100px;
+    color:white;
+}
+#contact>#contact_form{
+    border-radius: 0 30px 0 60px;
+    border: 10px solid #FFD600;
+    position:absolute;
+    background: linear-gradient(90deg, rgba(24,195,0,1) 12%, rgba(0,255,201,1) 50%, rgba(0,255,111,1) 84%);
+    top: 200px;
+    left: 20%;
+    width: 60%;
+}
+#contact>#contact_form>p{
+    font-size: 20px;
+    color: black;
+}
+#contact>#contact_form>label{
+    font-size: 20px;
+    color: indigo;
+}
+#contact>#contact_form>label>input{
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    font-size: 20px;
+}
+input,
+input::placeholder {
+    font-size: 20px;
+    background: navajowhite;
+    border: none;
+    color: rgb(255,0,0);
+}
+#contact>#contact_form>button{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 30px;
+    border: #F8FF95 solid 4px;
+    width: 150px;
+    height: 50px;
+    background: #A084E8;
+    color: #F8FF95;
+    top: 250px;
+}
+@media only screen and (max-width: 1400px) {
+    #contact{
+        width: 100%;
+        position: absolute;
+        top:2400px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #contact{
+        width: 100%;
+        position: absolute;
+        top:3350px;
+    }
+    #contact>h1{
+        position: absolute;
+        font-size: 50px;
+        left:10%;
+        color:white;
+    }
+    #contact>#contact_form>button{
+        cursor: pointer;
+        position: absolute;
+        border-radius: 30px;
+        border: #F8FF95 solid 4px;
+        width: 150px;
+        height: 50px;
+        background: #A084E8;
+        color: #F8FF95;
+        top: 310px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #contact{
+        width: 100%;
+        position: absolute;
+        top:3650px;
+    }
+
+    #contact>#contact_form>button{
+        cursor: pointer;
+        position: absolute;
+        border-radius: 30px;
+        border: #F8FF95 solid 4px;
+        width: 150px;
+        height: 50px;
+        background: #A084E8;
+        color: #F8FF95;
+        top: 410px;
+    }
+}
