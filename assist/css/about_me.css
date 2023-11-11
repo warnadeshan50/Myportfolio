@@ -48,7 +48,7 @@
     width: 280px;
     aspect-ratio: 1/1;
     animation: prof-img-animation 20s infinite ;
-    z-index: 9999;
+    /*z-index: 9999;*/
 }
 #about_me>#profile_card>.aboutmetxt{
     width: fit-content;

@@ -5,57 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9028c35e-bfc7-44c8-acb4-2d257b4c9995" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/assist/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/assist/css/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/css/style_sheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/ijse logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/assist/image_processing20200603-10766-1vtqqhy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/assist/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/assist/css/stylesheet03.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case03/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/assist/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/assist/stylesheet04.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/assist/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/assist/css/stylesheet05.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case06/assist/css/stylesheet06.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/assagments/Assingment03/case06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/css/blogs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/css/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/css/projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/assignments_screen_shots/case12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/note_paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/img/paper_efect_textfiled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assist/js/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case01/assist/css/stylesheet01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case02/assit/css/stylesheet02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case03/assist/css/stylesheet03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case04/assist/css/stylesheet04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/assit/animation_slide/slide1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/assit/animation_slide/slide2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/assit/animation_slide/slide3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/assit/animation_slide/slide4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/assit/css/stylesheet05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/Car_Animation_Img/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/Car_Animation_Img/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/Car_Animation_Img/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/Car_Animation_Img/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/Car_Animation_Img/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/assit/css/stylesheet06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment04/case06/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment09/assets/audio/audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment09/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment09/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment09/assets/lib/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/assagments/Assignment09/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/css/project_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/Web_pos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assist/img/hostal_manage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assist/css/about_me.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/about_me.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/css/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/preloader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/css/skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/skill.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/gallery06.png" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/gallery06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/gallery07.png" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/gallery07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/photo01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/photo02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/photo03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/photo04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assist/gallery/photo05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assist/img/gallery/photo05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assist/css/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assist/js/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/assist/js/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
@@ -67,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,22 +70,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "style",
-    "last_opened_file_path": "D:/IJSE Work Place/Html/port/Myportfolio/assist/assagments",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;style&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE Work Place/Java/Hostel management system&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\assagments" />
@@ -111,11 +93,11 @@
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img" />
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\assagments\Assignment04" />
+      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\assagments" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img\assignments_screen_shots" />
       <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img\case11" />
-      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist" />
-      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\img" />
-      <recent name="D:\IJSE Work Place\Html\port\Myportfolio\assist\lib" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +134,9 @@
       <workItem from="1698292291678" duration="7512000" />
       <workItem from="1698306876337" duration="914000" />
       <workItem from="1698309109134" duration="6931000" />
-      <workItem from="1699475604785" duration="3358000" />
+      <workItem from="1699475604785" duration="6446000" />
+      <workItem from="1699586810008" duration="7831000" />
+      <workItem from="1699714268095" duration="4101000" />
     </task>
     <task id="LOCAL-00001" summary="reorganize ui">
       <created>1696977373339</created>
@@ -182,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697704822456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="projects completing">
+      <created>1699479110715</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699479110715</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +184,7 @@
     <MESSAGE value="about me section responsive complete" />
     <MESSAGE value="education section responsive complete" />
     <MESSAGE value="skills section responsive complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills section responsive complete" />
+    <MESSAGE value="projects completing" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects completing" />
   </component>
 </project>

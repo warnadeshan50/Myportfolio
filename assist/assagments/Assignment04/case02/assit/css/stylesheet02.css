@@ -1,0 +1,42 @@
+body{
+    background: darkblue;
+}
+#frame{
+    position: absolute;
+    width: 200px;
+    aspect-ratio: 1/1;
+    background: gray;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+#frame::before{
+    content: " ";
+    border-radius:100% ;
+    border: 10px solid white;
+    border-top-color: red;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+span{
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#frame:hover::before{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}

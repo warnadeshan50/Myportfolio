@@ -1,0 +1,71 @@
+:root{
+    --box-width:200px;
+    --box-height:100px;
+}
+body{
+    margin: 0;
+}
+div{
+    width: var(--box-width);
+    height: var(--box-height);
+    background: blue;
+    border-radius: 20px;
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation1 {
+    /*0%{*/
+    /*    margin-left: 0;*/
+    /*    margin-top: 0;*/
+    /*}*/
+    /*25%{*/
+    /*    margin-top: 0;*/
+    /*    margin-left: calc(100vw - var(--box-width));*/
+    /*}*/
+    /*50%{*/
+    /*    margin-left: calc(100vw - var(--box-width));*/
+    /*    margin-top: calc(100vh - var(--box-height));*/
+    /*    */
+    /*}*/
+    /*75%{*/
+    /*    margin-top: calc(100vh - var(--box-height));*/
+    /*    margin-left: 0;*/
+    /*    */
+    /*}*/
+    /*100%{*/
+    /*    margin-left: 0;*/
+    /*    margin-top: 0;*/
+    /*    */
+    /*}*/
+    0%{
+        /*margin-top: 0;*/
+        margin-left: 0;
+
+    }
+    25%{
+        margin-top: 0;
+        margin-left:calc(100vw - 200px);
+        transform: rotate(180deg);
+        background: yellow;
+    }
+    50%{
+        margin-left:calc(100vw - 200px);
+        margin-top: calc(100vh - 100px);
+        transform: rotate(360deg);
+        background: red;
+    }
+    75%{
+        margin-top: calc(100vh - 100px);
+        margin-left: 0;
+        transform: rotate(180deg);
+        background: deeppink;
+    }
+    100%{
+        margin-left: 0;
+        margin-top: 0;
+        background: yellow;
+    }
+}

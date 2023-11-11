@@ -1,0 +1,81 @@
+body{
+    /*overflow: hidden;*/
+}
+
+section{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+    animation-name: my_animation;
+    animation-duration: 5s;
+    /*animation-direction: reverse;*/
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+section>div{
+    width: 50vw;
+    height: 50vh;
+
+}
+
+section>div:first-child{
+    background-image: url("../../assit/animation_slide/slide1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+section>div:nth-child(2){
+    background-image: url("../../assit/animation_slide/slide2.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+section>div:nth-child(3){
+    background-image: url("../../assit/animation_slide/slide3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+section>div:nth-child(4){
+    background-image: url("../../assit/animation_slide/slide4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid red;
+    overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@keyframes my_animation {
+    0%, 20%{
+        transform: translateX(0%);
+    }
+
+    25%, 45%{
+        transform: translateX(-25%);
+    }
+
+    50%, 70%{
+        transform: translateX(-50%);
+    }
+
+    75%, 100%{
+        transform: translateX(-75%);
+    }
+
+}

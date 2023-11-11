@@ -1,0 +1,31 @@
+#lgts{
+    width: 1200px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+#lgts>div{
+    width: 100px;
+    height: 20px;
+    background: white;
+    display: inline-block;
+    margin-left: 5px;
+    position:relative;
+}
+body{
+    background: black;
+}
+#btns{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    margin: auto;
+}
